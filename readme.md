@@ -2,19 +2,15 @@
 
 # SimpleFly
 
-A very, very simple Minecraft plugin that lets you enable flight for yourself.
+A very, very simple Minecraft plugin that lets you enable flight for yourself and others.
 
 ## Commands
 
-`/fly` - Toggle flight. (This can only be used for yourself at the moment).
+`/fly <player>` - Toggle flight. Where `<player>` can optionally be the player name.
 
 ## Permissions
 
 `flying.allow` - Allows the player with the permission to use the `/fly` command.
-
-## Roadmap
-
--   [ ] Add arguments to `/fly` command so you can enable/disable flight for others.
--   [ ] Add a new permission for toggling other's flight.
+`flying.allowOthers` - Allows the player with the permission to turn on and off flight for other players using the `/fly <player>` command.
 
 </div>

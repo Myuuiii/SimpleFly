@@ -1,10 +1,9 @@
 name: SimpleFly
-version: '${project.version}'
+version: "${project.version}"
 main: moe.myuuiii.simplefly.SimpleFly
 api-version: 1.18
-authors: [ Myuuiii ]
+authors: [Myuuiii]
 description: Adds a simple fly command
 commands:
-  fly:
-    description: Toggle flying
-    permission: flying.allow
+    fly:
+        description: Toggle flying
